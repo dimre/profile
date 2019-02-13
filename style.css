@@ -1,0 +1,66 @@
+body {
+  background-color: #dfe2e2;
+  font-family: 'Roboto Condensed', sans-serif;
+/*  font-family: 'Staatliches', cursive;*/
+/*  font-family: 'Merriweather', serif;*/
+  color: grey;
+  font-size: 18px ;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2, h3 {
+  font-size: 25px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif ;
+  color: #3c415e;
+  line-height: 20px;
+}
+
+a {
+  color: #1cb3c8 ;
+  text-decoration: overline;
+  line-height: 20px;
+}
+
+a:hover {
+  font-size: 200%;
+}
+
+img {
+  border-radius: 10%;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  border: 10px solid #a7d7c5;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card {
+  background-color: white;
+  border-radius: 1%;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 1px 1px #888888;
+}
+
+#pic {
+  float: center;
+}
